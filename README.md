@@ -1,4 +1,4 @@
-![image](https://github.com/Sanjaikee/NearMe/assets/150231888/ea35cb37-8e9e-4b50-b80b-a7e419c6cf27)# Ex04 Places Around Me
+# Ex04 Places Around Me
 ## Date: 
 
 ## AIM
