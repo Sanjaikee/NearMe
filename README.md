@@ -61,7 +61,7 @@ Execute the programs and publish
             <input type="text" id="Text2">
 </body>
 </html>
-Output:
+## OUTPUT:
 
 ![Screenshot 2024-04-16 151657](https://github.com/Sanjaikee/NearMe/assets/150231888/d15eddc4-3412-40d6-adb9-c31f1f28834a)
 
