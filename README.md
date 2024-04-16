@@ -1,3 +1,29 @@
+# Ex04 Places Around Me
+#Date: 12-04-24
+## AIM
+To develop a website to display details about the places around my house.
+
+## DESIGN STEPS
+
+### STEP 1
+Create a Django admin interface.
+
+### STEP 2
+Download your city map from Google.
+
+### STEP 3
+Using ```<map>``` tag name the map.
+
+### STEP 4
+Create clickable regions in the image using ```<area>``` tag.
+### STEP 5
+Write HTML programs for all the regions identified.
+
+### STEP 6
+Execute the programs and publish 
+
+## CODE
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +44,8 @@
     }
 </script>
 <body>
-    <IMG src="bg.png" width="1535" height="650" usemap="#MapNew" onmousemove="coordinate(event)">
+
+    <IMG src="![WhatsApp Image 2024-04-16 at 15 31 13_854b5ee9](https://github.com/Sanjaikee/NearMe/assets/150231888/19112091-d331-4625-81bc-3d4644a5870a)" width="1535" height="650" usemap="#MapNew" onmousemove="coordinate(event)">
         <MAP name="MapNew">
             <AREA shape="rect" coords="160,359,376,443" href="https://www.makemytrip.com/hotels/hotel-listing/?topHtlId=201712071752368734&city=CTMAA&country=IN&checkin=04132024&checkout=04142024&roomStayQualifier=2e0e&totalGuestCount=2&roomCount=1&cmp=googlehoteldfinder_DH_META_Paid_selected_IN_mapresults_201712071752368734&_uCurrency=INR&Campaign=20613919640&locusId=CTMAA&locusType=city&mtkeys=b1e79af8-c554-48b3-a52c-85fea70907c2&au=&gclid=Cj0KCQjwlN6wBhCcARIsAKZvD5iBWH_sKzcQ-sYrPVV0CsKUtGbCrrPjzCzd6cFU2R0VyBaiO8_RWIQaAlTaEALw_wcB" title="Moon view beach resort">
                 <AREA shape="rect" coords="406,278,536,332" href="https://www.agoda.com/search?campaignid=21176660567&searchdatetype=selected&lt=1&numberofchildren=0&childages=&gsite=mapresults&partnercurrency=INR&roomid=655899473&pricetax=330.62&pricetotal=3085.76&rateplan=937fa546-fec5-fcbc-2b5d-04f22c071a13&usercountry=IN&currency=INR&userdevice=desktop&verif=false&audience_list=&mcid=332&booking_source=cpc&adtype=1&push_id=CgYIgJbnsAYSBgiAueywBhgBIKDy7xIqDBgBKggiAggBKgIIBA%3D%3D937fa546-fec5-fcbc-2b5d-04f22c071a13_20240412_10&gclid=Cj0KCQjwlN6wBhCcARIsAKZvD5g7RTaTN6JjXjGwhXTSIBNj2jEWvioBiR5E6ERoIoKHIBOLpYgYDhwaAkeBEALw_wcB&los=1&adults=2&rooms=1&checkin=2024-04-13&checkout=2024-04-14&selectedproperty=39581984&city=17269&cid=1918349&pslc=1&ds=IUpATh8VkRCiNnAT" title="Laksh Grand Resort">
@@ -61,6 +88,10 @@ Output:
 
 
 ![Screenshot 2024-04-16 152304](https://github.com/Sanjaikee/NearMe/assets/150231888/842419a3-560e-4661-96b4-727fc721ec62)
+
+## RESULT
+The program for implementing image maps using HTML is executed successfully.
+
 
 
 
